@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Nisarg",
+    "Email": "nisargshah1@gmail.com",
+    "Contact": 1234567890,
+    "Location": "Jersey city",
+    "Post": "Trainee",
+    "Education" : "MS in CE"   
+  },
+  {
+    "Name": "Mahesh",
+    "Email": "maheshdobariya1991@gmail.com",
+    "Contact": 6463314748,
+    "Location": "New York",
+    "Post": "Trainee",
+    "Education": "MS in CS"
+  } 
+  
+]

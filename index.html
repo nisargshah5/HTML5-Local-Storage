@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>jQuery</h1>
+<div id="abc">
+    <!-- Popup Div Starts Here -->
+      <div id="popupContact">
+        <!-- Contact Us Form -->
+      <form action="#" id="form" method="GET" name="form">
+      
+        <h1>User Form</h1>
+        
+        <fieldset>
+          
+          <label for="name">Name:</label>
+<input id="name" name="name" placeholder="Name" type="text" class="formTextBox">
+          
+          <label for="mail">Email:</label>
+<input id="email" name="email" placeholder="Email" type="text" class="formTextBox">
+          
+          <label for="contact">Contact:</label>
+<input id="contact" name="contact" placeholder="Contact" type="text" class="formTextBox">
+
+          <label for="location">Location:</label>
+<input id="location" name="location" placeholder="Location" type="text" class="formTextBox">
+
+          <label for="post">Post:</label>
+<input id="post" name="post" placeholder="Post" type="text" class="formTextBox">
+
+          <label for="education">Education:</label>
+<input id="education" name="education" placeholder="Education" type="text" class="formTextBox">
+          
+        </fieldset>
+        
+        <button id="submit" onclick="formData()" class="submitUpdate" value="sub" data-sbt="sbt" type="button">Submit</button>
+        <button id="close" onclick="close1()" >Close</button>
+      </form>
+
+  </div>
+<!-- Popup Div Ends Here -->
+</div>      
+
+<div style="width: 10%">
+  <button id="popup" onclick="div_show()">ADD</button>
+</div>
+<div style="width: 15%;margin-bottom: 5px">
+  <input type="text" name="searchBox" id="searchBox" class="searchBox">
+</div>
+
+    
+    <div id="dataDispaly"></div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
